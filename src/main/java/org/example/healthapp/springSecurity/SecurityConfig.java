@@ -73,7 +73,7 @@ public class SecurityConfig {
         // Autoriser les requêtes depuis Angular (localhost:4200)
         configuration.setAllowedOrigins(Arrays.asList(
     "http://localhost:4200",
-    "https://health-app-frontend-rho.vercel.app"
+    "https://healthbridge-pro.vercel.app"
 ));
 
         // Méthodes HTTP autorisées
